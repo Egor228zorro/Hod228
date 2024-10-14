@@ -2,11 +2,12 @@
 using namespace std; 
 int main() { 
  char name[20]; 
+ std::cout << "Hello world! Have a nice day!\n"; 
  cout << "Enter your name: "; 
  cin >> name; 
  cout << "Hello, " << name << "!\n"; 
  cout << "Nice to see you learning Git\n"; 
-  cout << "Have a nice day to you\n";
  system("pause"); 
  return 0; 
 } 
+
